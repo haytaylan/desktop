@@ -29,5 +29,12 @@
   },
   "dependencies": {
     "electron-util": "0.12.1"
+  },
+  "build": {
+    "appId": "io.jseverywhere.notedly",
+    "productName": "Notedly",
+    "directories": {
+      "buildResources": "resources"
+    }
   }
 }
